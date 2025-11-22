@@ -453,11 +453,6 @@ footer {
             text-align: center;
         }
 
-        .hero .row {
-            flex-direction: column-reverse !important;
-            /* SVG goes below content */
-        }
-
         .hero-image svg {
             width: 90% !important;
             height: auto !important;
