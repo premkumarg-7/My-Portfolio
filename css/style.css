@@ -445,6 +445,42 @@ footer {
 
 /* Responsive */
 @media (max-width: 768px) {
+
+    /* ----------- Mobile Fix for Hero Section ----------- */
+        .hero {
+            padding-top: 120px !important; /* This avoids overlap with navbar */
+            padding-bottom: 40px;
+            text-align: center;
+        }
+
+        .hero .row {
+            flex-direction: column-reverse !important;
+            /* SVG goes below content */
+        }
+
+        .hero-image svg {
+            width: 90% !important;
+            height: auto !important;
+            margin: 0 auto;
+            display: block;
+        }
+
+        .hero-content {
+            margin-top: 20px !important;
+            padding: 0 10px;
+        }
+
+        /* Remove extra margins caused by AOS animations */
+        [data-aos] {
+            transform: none !important;
+            opacity: 1 !important;
+            transition: none !important;
+        }
+
+        .hero-buttons a {
+            margin-right: 0 !important;
+        }
+
     .hero h1 {
         font-size: 2.5rem;
     }
