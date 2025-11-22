@@ -80,7 +80,7 @@
     setInterval(createParticle, 300);
 
     // Typing effect for hero subtitle (optional)
-    const subtitleText = "Full-Stack Developer & AI Engineer";
+    const subtitleText = "Full-Stack Developer & Data Visualization Specialist";
     const subtitleElement = document.querySelector('.hero .subtitle');
     let charIndex = 0;
 
